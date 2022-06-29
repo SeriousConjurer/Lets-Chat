@@ -1,0 +1,98 @@
+.chatbox{
+
+    width: 800px;
+    margin-left: 25%;
+    height: 94vh;
+    background-color: rgb(255, 255, 255,0.1);
+    padding: 50px;
+    border-radius: 5px;
+    backdrop-filter: blur(8px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 1px 10px 10px rgb(66, 66, 66, 0.0.3);
+    line-height: 1.5;
+    overflow-y: scroll;
+}
+/* scrollbar&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  */
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(53, 51, 51, 0.8); 
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  */
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(73, 68, 68, 0.4); 
+}
+/* scrollbar&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+.msgbox{
+    color: black;
+    width: 400px;
+    background-color: rgba(221, 235, 235, 0.274);
+    padding-left: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border: groove 0.5em rgb(0, 108, 112); */
+    border-radius: 0px 2em 2em 2em;
+    backdrop-filter: blur(10px);
+    overflow-wrap: break-word;
+}
+
+.msgboxleft{
+    color: black;
+    width: 700px;
+    padding-top: 4px;
+    background-color: rgba(0, 255, 255, 0.486);
+    margin-bottom: 10px;
+    border: groove 0.5em rgba(21, 73, 73, 0.473);
+    border-radius: 0px 0px 2em 2em;
+    backdrop-filter: hue-rotate(120deg);
+    overflow-wrap: break-word;
+}
+
+.msgboxmy{
+    right: 0;
+    color: black;
+    width: 400px;
+    background-color: rgba(221, 235, 235, 0.274);
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border: groove 0.5em rgb(0, 108, 112); */
+    border-radius: 2em 0em 2em 2em;
+    backdrop-filter: blur(10px);
+    overflow-wrap: break-word;
+}
+
+.writing {
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+    right: 10;
+    width: 800px;
+    opacity: 90%;
+    
+}
+
+h4{
+    font-size: 25px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+.boldstyle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
